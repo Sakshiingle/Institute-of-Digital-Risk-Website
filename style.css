@@ -293,7 +293,7 @@ p {
 
 /* Logo image — fixed height so it fits navbar properly */
 .logo-icon {
-  height: 48px;    /* Bigger than before — clearly visible */
+  height: 70px;    /* Bigger than before — clearly visible */
   width: auto;     /* Width scales automatically to keep proportions */
   display: block;
 }
@@ -1316,7 +1316,7 @@ p {
 
 /* Footer icon logo */
 .footer-logo-img {
-  height: 40px;
+  height: 70px;
   width: auto;
   /* In light mode the logo has a white bg — we invert it
      so the hex icon is visible on light background */
