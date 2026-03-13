@@ -75,6 +75,11 @@ This is front‑end only; no real email is sent.
 - Form validation is basic and intended for learning purposes.
 - Design is a close recreation, not an official IDR site.
 
+# Institute of Digital Risk – Landing Page
+
+Live Demo : https://sakshiingle.github.io/Institute-of-Digital-Risk-Website/
+
+Repository: https://github.com/Sakshiingle/Institute-of-Digital-Risk-Website
 
 
 ## 👤 Author
