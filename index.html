@@ -425,6 +425,114 @@
 
     </section>
 
+ <!-- ============================================================
+         SECTION 5: CONTACT / CALL TO ACTION
+          - Two-column layout: contact info on the left, form on the right
+    ============================================================ -->
+    <section class="contact" id="contact">
+  <div class="contact-bg-hex" aria-hidden="true"></div>
+
+  <div class="contact-container">
+    <!-- LEFT: Heading and info -->
+    <div class="contact-info">
+      <div class="section-label light">
+        <span>Get Involved</span>
+      </div>
+
+      <h2 class="section-heading light">
+        Ready to Build<br>What's Next?
+      </h2>
+
+      <p>
+        Whether you're looking to train, hire, partner or
+        collaborate — we'd love to hear from you.
+      </p>
+
+      <div class="contact-details">
+        <div class="contact-detail">
+          <span class="detail-icon">✉</span>
+          <span>
+            <a href="mailto:contact@instituteofdigitalrisk.com">
+              contact@instituteofdigitalrisk.com
+            </a>
+          </span>
+        </div>
+        <div class="contact-detail">
+          <span class="detail-icon">🌐</span>
+          <span>www.instituteofdigitalrisk.com</span>
+        </div>
+        <div class="contact-detail">
+          <span class="detail-icon">📍</span>
+          <span>United Kingdom</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: The form -->
+    <div class="contact-form-wrap">
+      <form class="contact-form" id="contact-form" action="#" novalidate>
+        <h3>Register Your Interest</h3>
+
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your full name"
+            required
+          >
+          <!-- required = browser won't submit if this is empty -->
+          <span class="form-error" id="name-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="your.email@example.com"
+            required
+          >
+          <!-- type="email" = browser checks it looks like an email address -->
+          <span class="form-error" id="email-error"></span>
+        </div>
+
+        <div class="form-group">
+          <label for="interest">I am interested in</label>
+          <select id="interest" name="interest">
+            <option value="">Select an option...</option>
+            <option value="training">Training / Academy</option>
+            <option value="hiring">Hiring Talent</option>
+            <option value="advisory">Advisory Services</option>
+            <option value="partnership">University / Research Partnership</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea
+            id="message"
+            name="message"
+            rows="4"
+            placeholder="Tell us a bit about yourself or your organisation..."
+          ></textarea>
+          <span class="form-error" id="message-error"></span>
+        </div>
+
+        <button type="submit" class="btn btn-primary full-width" id="submit-btn">
+          Send Message
+        </button>
+
+        <div class="form-success" id="form-success">
+          ✅ Thank you! We'll be in touch shortly.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
 
 
   </main>
