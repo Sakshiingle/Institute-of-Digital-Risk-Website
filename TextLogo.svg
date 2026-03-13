@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 305 120" width="305" height="120">
+  <rect width="305" height="120" fill="#FFFFFF"/>
+
+  <!-- Hex icon: left padding = 16px, right edge = 104px -->
+  <polygon points="60,10 104,35 104,85 60,110 16,85 16,35" fill="#F8F8F8" stroke="#0A0A0A" stroke-width="2.5"/>
+  <line x1="60" y1="60" x2="60"  y2="10"  stroke="#0A0A0A" stroke-width="0.5" opacity="0.12"/>
+  <line x1="60" y1="60" x2="104" y2="35"  stroke="#0A0A0A" stroke-width="0.5" opacity="0.12"/>
+  <line x1="60" y1="60" x2="104" y2="85"  stroke="#0A0A0A" stroke-width="0.5" opacity="0.12"/>
+  <line x1="60" y1="60" x2="60"  y2="110" stroke="#0A0A0A" stroke-width="0.5" opacity="0.12"/>
+  <line x1="60" y1="60" x2="16"  y2="85"  stroke="#0A0A0A" stroke-width="0.5" opacity="0.12"/>
+  <line x1="60" y1="60" x2="16"  y2="35"  stroke="#0A0A0A" stroke-width="0.5" opacity="0.12"/>
+
+  <path d="M23,60 Q60,28 97,60 Q60,92 23,60 Z" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.5"/>
+  <circle cx="60" cy="60" r="18" fill="#0A0A0A"/>
+  <circle cx="60" cy="60" r="13" fill="#F97316"/>
+  <circle cx="60" cy="60" r="6.5" fill="#0A0A0A"/>
+  <circle cx="66" cy="54" r="3"   fill="#FFFFFF" opacity="0.85"/>
+  <circle cx="60" cy="10"  r="3.5" fill="#F97316"/>
+  <circle cx="60" cy="110" r="3.5" fill="#F97316"/>
+
+  <!-- Divider -->
+  <line x1="120" y1="12" x2="120" y2="108" stroke="#E0E0E0" stroke-width="1.2"/>
+
+  <!-- Text block: starts x=140, right edge ~289, right padding=16 → total=305 -->
+  <text x="140" y="56"  font-family="'Arial Black','Helvetica Neue',sans-serif" font-size="44" font-weight="900" fill="#0A0A0A" letter-spacing="5">IDR</text>
+  <rect x="140" y="63"  width="149" height="2.5" fill="#F97316" rx="1.5"/>
+  <text x="141" y="79"  font-family="Arial,sans-serif" font-size="10" fill="#AAAAAA" letter-spacing="3.5">INSTITUTE OF</text>
+  <text x="140" y="97"  font-family="Arial,sans-serif" font-size="13" font-weight="600" fill="#0A0A0A" letter-spacing="5">DIGITAL RISK</text>
+</svg>
